@@ -4,7 +4,7 @@ This project aims to generate music harmony using the input music melody.
 
 ## Description
 
-This project used several deep learning techniques to test out and compare the performance of each 
+This project used several deep learning techniques to compare the performance of each models. 
 
 ## Getting Started
 
@@ -23,17 +23,16 @@ To run the project, clone the repo and run the following commands:
 ```
 cd Harmony_Generation
 ```
-
-There are total 3 methods of generating music harmony and they are listed below:
+There are total 3 models of generating music harmony and they are listed below:
 * harmony_transformer_sequence.ipynb
 * harmony_transformer_matrix.ipynb
 * harmony_lstm.ipynb
 
-The default midi files are used to generate music is inside of the directory:
+The default midi files used to generate music are tranposed c-major music which are inside of the directory:
 ```
 ./data/transposed/classical
 ```
-You can train the models and generating some harmony musics by simply running the entire jupyter files. Be aware that the training process might take up to 10 hours. 
+You can train the models and generating harmony musics by simply running the entire jupyter files. Be aware that the training process might take up to 10 hours. 
 If you would like to skip the training part, you can comment the 
 
 ```
@@ -53,23 +52,37 @@ latest
 
 model.load_weights(latest)
 ```
+The above codes are included in all three files.
 
-
-Above are the tranposed c-major music that are ready to be used to generate harmony. However, if you would like to test the performance of the models using different midi musics, run the below jupyter files:
+### Try it out with your own midi files
+If you would like to test the performance of the models using different midi musics, run the below jupyter files:
 * transpose_music.ipynb
-Within this file, replace the "filePath" in the following code with your own file paths:
+Within this file, replace the "filePath" in the block 4 + 5 in the transpose_music.ipynb, with your own file paths:
 ```
 filenames = extract.extract_all_music("filePath")
 extract.transpose_music("data/transposed/classical", "filePath", filenames)
 ```
-Then the transposed musics will be stored under the directory and you can run the 
+Then the transposed musics will be stored under the directory.
 ```
 ./data/transposed/classical
 ```
+Then you should be able to tun the models as usual.
+
 ## Authors
 
 Contributors names and contact info
 Jingwen Wu
 wujingwen0810@gmail.com
+
+
+## Reference
+***************************************************************************************/
+*    Title: GraphicsDrawer source code
+*    Author: Smith, J
+*    Date: 2011
+*    Code version: 2.0
+*    Availability: http://www.graphicsdrawer.com
+*
+***************************************************************************************/
 
 
