@@ -5,7 +5,7 @@
 The aims of this project is to generate music harmony using the input music melody. In ths project, I used Transformer, and LSTM models to compare the performance of each models.
 
 * harmony_transformer_sequence.ipynb
-** 
+** v
 * harmony_transformer_matrix.ipynb
 * harmony_lstm.ipynb
 
