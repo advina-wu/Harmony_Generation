@@ -44,9 +44,9 @@ The default midi files are used to generate music is inside of the directory:
 ```
 Above are the tranposed c-major music that are ready to be used to generate harmony. However, if you would like to test the performance of the models using different midi musics, run the below jupyter files:
 * transpose_music.ipynb
-Within this file, replace the <<filePath>> with 
+Within this file, replace the <filePath> with 
 
-filenames = extract.extract_all_music(<<filePath>>)
+filenames = extract.extract_all_music(<filePath>)
 
 
 ## Authors
