@@ -1,4 +1,4 @@
-# Harmony_Generation
+# Harmony Generation
 
 This project aims to generate music harmony using the input music melody.
 
@@ -27,11 +27,24 @@ pip install -r dependencies.txt
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+To run the project, clone the repo and run the following commands:
+
 ```
-code blocks for commands
+cd Harmony_Generation
 ```
+
+There are total 3 methods of generating music harmony and they are listed below:
+* harmony_transformer_sequence.ipynb
+* harmony_transformer_matrix.ipynb
+* harmony_lstm.ipynb
+
+The default midi files are used to generate music is inside of the directory:
+```
+./data/transposed/classical
+```
+Above are the tranposed c-major music that are ready to be used to generate harmony. However, if you would like to test the performance of the models using different midi musics, run the below jupyter files:
+* transpose_music.ipynb
+
 
 
 ## Authors
