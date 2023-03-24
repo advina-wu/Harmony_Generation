@@ -4,10 +4,16 @@
 ## Description
 The aims of this project is to generate music harmony using the input music melody. In ths project, I used Transformer, and LSTM models to compare the performance of each models.
 
-* harmony_transformer_sequence.ipynb
-** v
-* harmony_transformer_matrix.ipynb
+##### harmony_transformer_sequence.ipynb
+* The representation of the music data is a sequence of notes being played ordered by time. 
+* The input data shape for the transformer in the harmony_transformer_sequence.ipynb is 2d (batch, sequence length) where the sequence length consist of tokens that represent the pitch of the note played (1-128) at time T (0 - seuquence length)
+##### harmony_transformer_matrix.ipynb 
+* The representation of the music data is a 2d binary matrix. The row of the matrix represent the time T (sequence length) and the column represents the pitch of the not being played (0-128).
+* The input data shape for the transformer in the harmony_transformer_matrix.ipynb is 3d (batch, sequence length, pitches). If a note 67 is played at time 2, then matrix[2][67] = 1
+
+where the sequence length consist of tokens that represent the pitch of the note played at time T
 * harmony_lstm.ipynb
+
 
 
 
