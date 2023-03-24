@@ -1,10 +1,17 @@
 # Harmony Generation
 
-This project aims to generate music harmony using the input music melody.
 
 ## Description
+The aims of this project is to generate music harmony using the input music melody. In ths project, I used Transformer, and LSTM models to compare the performance of each models.
 
-This project used several deep learning techniques to compare the performance of each models. 
+* harmony_transformer_sequence.ipynb
+** 
+* harmony_transformer_matrix.ipynb
+* harmony_lstm.ipynb
+
+
+
+
 
 ## Getting Started
 
@@ -77,11 +84,17 @@ wujingwen0810@gmail.com
 
 ## Reference
 ***************************************************************************************/
-*    Title: GraphicsDrawer source code
-*    Author: Smith, J
-*    Date: 2011
-*    Code version: 2.0
-*    Availability: http://www.graphicsdrawer.com
+*    Title: Generative music with RNN 
+*    License: Creative Commons Attribution 4.0 License
+*    Date: 2022-06-28 UTC.
+*    Availability:  https://www.tensorflow.org/tutorials/audio/music_generation
+*
+***************************************************************************************/
+***************************************************************************************/
+*    Title: Translate Text with transformer model
+*    License: Creative Commons Attribution 4.0 License
+*    Date: 2023-03-11 UTC.
+*    Availability:  https://www.tensorflow.org/text/tutorials/transformer
 *
 ***************************************************************************************/
 
